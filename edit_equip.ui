@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>edit_equip</class>
+ <widget class="QMainWindow" name="edit_equip">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Редактировать имеющееся оборудование</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_part_num">
+      <property name="text">
+       <string>Артикул</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLabel" name="label_cell_addr">
+      <property name="text">
+       <string>Ячекйка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLineEdit" name="lineEdit_min_count"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="lineEdit_name_en"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="lineEdit_name_ru"/>
+    </item>
+    <item row="5" column="1" colspan="2">
+     <widget class="QLabel" name="label_invent_num">
+      <property name="text">
+       <string>Инвент. номер</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLineEdit" name="lineEdit_act_count"/>
+    </item>
+    <item row="8" column="3">
+     <widget class="QLineEdit" name="lineEdit_rep"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLabel" name="label_equipment">
+      <property name="text">
+       <string>Оборудование</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" colspan="2">
+     <widget class="QLabel" name="label_act_count">
+      <property name="text">
+       <string>Актуальное кол-во</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLineEdit" name="lineEdit_equipment"/>
+    </item>
+    <item row="0" column="0" rowspan="11">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="label_rep">
+      <property name="text">
+       <string>Склад</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLabel" name="label_name_en">
+      <property name="text">
+       <string>Наименование(EN)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QPushButton" name="pushButton_show">
+      <property name="text">
+       <string>Показать таблицу</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QLabel" name="label_name_ru">
+      <property name="text">
+       <string>Наименование(RU)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLineEdit" name="lineEdit_invent_num"/>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLineEdit" name="lineEdit_part_num"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="lineEdit_manufacturer"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLabel" name="label_min_count">
+      <property name="text">
+       <string>Мин. кол-во</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1" colspan="3">
+     <widget class="QPushButton" name="pushButton_edit">
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="QLineEdit" name="lineEdit_cell_addr"/>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QLabel" name="label_manufacturer">
+      <property name="text">
+       <string>Производитель</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLabel" name="label_comment">
+      <property name="text">
+       <string>Комментарий</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="QLineEdit" name="lineEdit_comment"/>
+    </item>
+   </layout>
+   <zorder>tableView</zorder>
+   <zorder>pushButton_show</zorder>
+   <zorder>label_name_ru</zorder>
+   <zorder>label_name_en</zorder>
+   <zorder>label_manufacturer</zorder>
+   <zorder>label_part_num</zorder>
+   <zorder>label_equipment</zorder>
+   <zorder>pushButton_edit</zorder>
+   <zorder>label_invent_num</zorder>
+   <zorder>label_act_count</zorder>
+   <zorder>label_min_count</zorder>
+   <zorder>label_rep</zorder>
+   <zorder>label_cell_addr</zorder>
+   <zorder>label_comment</zorder>
+   <zorder>lineEdit_name_ru</zorder>
+   <zorder>lineEdit_name_en</zorder>
+   <zorder>lineEdit_manufacturer</zorder>
+   <zorder>lineEdit_part_num</zorder>
+   <zorder>lineEdit_equipment</zorder>
+   <zorder>lineEdit_invent_num</zorder>
+   <zorder>lineEdit_act_count</zorder>
+   <zorder>lineEdit_min_count</zorder>
+   <zorder>lineEdit_rep</zorder>
+   <zorder>lineEdit_cell_addr</zorder>
+   <zorder>lineEdit_comment</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_name_ru</tabstop>
+  <tabstop>lineEdit_name_en</tabstop>
+  <tabstop>lineEdit_manufacturer</tabstop>
+  <tabstop>lineEdit_part_num</tabstop>
+  <tabstop>lineEdit_equipment</tabstop>
+  <tabstop>lineEdit_invent_num</tabstop>
+  <tabstop>lineEdit_act_count</tabstop>
+  <tabstop>lineEdit_min_count</tabstop>
+  <tabstop>lineEdit_rep</tabstop>
+  <tabstop>lineEdit_cell_addr</tabstop>
+  <tabstop>lineEdit_comment</tabstop>
+  <tabstop>pushButton_edit</tabstop>
+  <tabstop>pushButton_show</tabstop>
+  <tabstop>tableView</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

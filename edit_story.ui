@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>edit_story</class>
+ <widget class="QMainWindow" name="edit_story">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_date">
+      <property name="text">
+       <string>Дата</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="date"/>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="pushButton_show_table">
+      <property name="text">
+       <string>Показать таблицу с данной датой</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_new_date">
+      <property name="text">
+       <string>Новая Дата</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_date"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_new_name_surname">
+      <property name="text">
+       <string>Новое ФИ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_name_surname"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_new_name_ru">
+      <property name="text">
+       <string>Новое Наим.(RU)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_name_ru"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_new_name_en">
+      <property name="text">
+       <string>Новое Наим.(EN)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_name_en"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_new_manufacturer">
+      <property name="text">
+       <string>Новый Произв.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_manufacturer"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_ne_use_count">
+      <property name="text">
+       <string>Новое кол-во исп.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_use_count"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_new_comment">
+      <property name="text">
+       <string>Новый коммент.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1" colspan="2">
+     <widget class="QLineEdit" name="new_comment"/>
+    </item>
+    <item row="8" column="3">
+     <widget class="QPushButton" name="pushButton_edit">
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QTableView" name="tableView_story"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="pushButton_delete">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
