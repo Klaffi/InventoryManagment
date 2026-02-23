@@ -12,7 +12,7 @@ MainPage::MainPage(QWidget *parent)
     db = QSqlDatabase::addDatabase("QPSQL");
     db.setDatabaseName("accs");
     db.setUserName("postgres");
-    db.setPassword("Urysapape1");
+    db.setPassword("xxxx");
     if (!db.open()) {
         qDebug() << "Error: connection with database fail";
     } else {
